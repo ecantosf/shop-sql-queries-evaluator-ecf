@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 7 correctas de 8 queries
+✅ 8 correctas de 9 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.38 ms
+⏱ Tiempo: 0.33 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -37,14 +37,14 @@
 
 ## ✅ Query 5: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 6: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -56,6 +56,13 @@
 
 ---
 
-## ❌ Query 8: Error
+## ✅ Query 8: Correcto
+
+⏱ Tiempo: 0.30 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 9: Error
 - **Descripción**: 'NoneType' object is not iterable
 
