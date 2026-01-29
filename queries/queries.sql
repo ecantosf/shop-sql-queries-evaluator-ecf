@@ -39,7 +39,8 @@ SELECT nombre, TRUNCATE(precio, 0) AS 'precio truncado'
 FROM producto;
 
 -- 11. Mostra una llista amb els codis dels fabricants que apareixen a la taula producto, incloent possibles repeticions.
-
+SELECT DISTINCT codigo
+FROM fabricante;
 
 -- 12. Llista el codi dels fabricants que tenen productes en la taula producto, eliminant els codis que apareixen repetits.
 
