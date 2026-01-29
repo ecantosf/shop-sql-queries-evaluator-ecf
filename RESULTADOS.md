@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 9 correctas de 11 queries
+✅ 10 correctas de 11 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.39 ms
+⏱ Tiempo: 0.36 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.32 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,7 +30,7 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -44,45 +44,35 @@
 
 ## ✅ Query 6: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.33 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 7: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 9: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 10: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,4 +1,4 @@
--nombre | precio truncado
-+precio truncado | precio
- Disco duro SATA3 1TB | 86.00
- Memoria RAM DDR4 8GB | 120.00
- Disco SSD 1 TB | 150.00
-```
+## ✅ Query 10: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
