@@ -2,7 +2,7 @@
 
 
 ## 📈 Resumen
-✅ 15 correctas de 16 queries
+✅ 16 correctas de 17 queries
 
 ## ✅ Query 1: Correcto
 
@@ -13,14 +13,14 @@
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -37,7 +37,7 @@
 
 ## ✅ Query 5: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -58,21 +58,21 @@
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 9: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 10: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -93,14 +93,14 @@
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -112,6 +112,16 @@
 
 ---
 
-## ❌ Query 16: Error
+## ✅ Query 16: Correcto
+
+⏱ Tiempo: 0.28 ms
+🔍 No se usó ningún índice en esta consulta.
+
+🚨 **Problemas detectados:**
+⚠️ Evitar `SELECT *`. Usar solo las columnas necesarias.
+
+---
+
+## ❌ Query 17: Error
 - **Descripción**: 'NoneType' object is not iterable
 
