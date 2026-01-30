@@ -198,8 +198,8 @@ ORDER BY p.precio DESC, p.nombre ASC;
 
 -- 33. Retorna un llistat amb el codi i el nom de fabricant (fabricante), solament d'aquells fabricants que tenen productes associats en la base de dades.
 SELECT DISTINCT
-    f.codigo,
-    f.nombre AS fabricante
+    f.codigo AS fabricante,
+    f.nombre
 FROM producto p
 JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 
