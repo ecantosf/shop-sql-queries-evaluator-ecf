@@ -240,12 +240,10 @@ WHERE precio = (
 );
 
 -- 38. Llista el nom del producte més car del fabricant Lenovo.
-SELECT
-    p.nombre,
-    f.nombre
+SELECT p.nombre AS producto
 FROM producto p
 JOIN fabricante f ON p.codigo_fabricante = f.codigo
-WHERE f.nombre  = 'Lenovo'
+WHERE f.nombre = 'Lenovo'
 ORDER BY p.precio DESC
 LIMIT 1;
 
