@@ -100,10 +100,10 @@ JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 SELECT
     p.nombre,
     p.precio,
-    f.nombre AS 'nombre del fabricante'
+    f.nombre AS "nombre del fabricante"
 FROM producto p
-INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo
-ORDER BY p.nombre ASC;
+JOIN fabricante f ON p.codigo_fabricante = f.codigo
+ORDER BY LOWER(p.nombre);
 
 -- 23. Retorna una llista amb el codi del producte, nom del producte, codi del fabricant (codigo fabricante) i nom del fabricant (nombre fabricante), de tots els productes de la base de dades.
 
