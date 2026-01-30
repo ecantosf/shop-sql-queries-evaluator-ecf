@@ -100,7 +100,7 @@ JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 SELECT
     p.nombre,
     p.precio,
-    f.nombre AS "nombre del fabricante"
+    f.nombre AS 'nombre del fabricante'
 FROM producto p
 JOIN fabricante f ON p.codigo_fabricante = f.codigo
 ORDER BY p.nombre COLLATE utf8mb4_general_ci;
