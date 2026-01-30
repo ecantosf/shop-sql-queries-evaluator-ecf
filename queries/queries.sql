@@ -216,7 +216,14 @@ JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 
 
 -- 38. Llista el nom del producte més car del fabricant Lenovo.
-
+SELECT
+    p.nombre,
+    f.nombre
+FROM producto p
+JOIN fabricante f ON p.codigo_fabricante = f.codigo
+WHERE f.nombre  = 'Lenovo'
+ORDER BY p.precio DESC
+LIMIT 1;
 
 -- 39. Llista el nom del producte més barat del fabricant Hewlett-Packard.
 
